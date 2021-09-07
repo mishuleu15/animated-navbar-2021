@@ -10,8 +10,8 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="script.js" type="module" defer></script>
     <title>Navbar</title>
   </head>
   <body>
@@ -19,27 +19,32 @@
       <ul>
         <div class="navbar-container">
           <div class="navigation">
+            <!-- Main Logo -->
             <li id="logo">Slick<span>Robo</span></li>
-            <div id="myLinks">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Projects</a>
-              <a href="#">Contact</a>
-            </div>
+            <!-- Main Nav -->
             <li class="home hidden">Home</li>
             <li class="hidden">About</li>
             <li class="hidden">Projects</li>
             <li class="hidden">Contact</li>
           </div>
+          <!-- Social Icons Nav -->
           <div class="social-icons">
             <li class="hidden"><i class="fab fa-facebook"></i></li>
             <li class="hidden"><i class="fab fa-twitter"></i></li>
             <li class="hidden"><i class="fab fa-behance"></i></li>
             <li class="hidden"><i class="fab fa-linkedin"></i></li>
             <li class="hidden"><i class="fab fa-instagram"></i></li>
+            <!-- Btn Mobile Nav -->
+            <div class="container">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
           </div>
         </div>
       </ul>
     </nav>
+    <!-- Mobile Nav -->
+    <div class="myLinks"></div>
   </body>
 </html>

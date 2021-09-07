@@ -1,0 +1,11 @@
+@import './tyography.css';
+@import './reset.css';
+@import './navigation.css';
+@import './btnMobile.css';
+@import './mediaQueries.css';
+
+html {
+  background: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80')
+    no-repeat center center fixed;
+  font-family: 'Play', sans-serif;
+}
